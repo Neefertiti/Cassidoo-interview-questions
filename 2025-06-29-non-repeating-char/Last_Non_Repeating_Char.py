@@ -26,8 +26,8 @@ if __name__ == "__main__":
         string_to_test = ["She borrowed the book from him many years ago and hasn't yet returned it",
                           "Nancy thought the best way to create a welcoming home was to line it with barbed wire",
                           "At that moment he wasn't listening to music, he was living an experience"]
-        for word in string_to_test:
-               non_repeat_char = nonRepeat(word, args.debug)
+        for sentence in string_to_test:
+               non_repeat_char = nonRepeat(sentence, args.debug)
                print(non_repeat_char)
     else:
         print("Please enter string for nonRepeat:")
